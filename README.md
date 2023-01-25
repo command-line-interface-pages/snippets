@@ -1,2 +1,3 @@
-# snippets
+# Snippets
+
 Snippets for different editors.
