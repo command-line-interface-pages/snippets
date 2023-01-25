@@ -2,4 +2,4 @@
 # name: long option
 # key: --
 # --
---${1:command}=${2:value}$0
+--${1:option}=${2:value}$0
