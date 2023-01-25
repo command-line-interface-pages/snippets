@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: long option
+# key: --
+# --
+--${1:command}=${2:value}$0
