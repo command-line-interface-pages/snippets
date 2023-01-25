@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: example
+# key: ex
+# --
+- ${1:example-description}:
+
+\`${2:example-code}$0\`
