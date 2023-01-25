@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: char
+# key: ch
+# --
+{char ${1:description}: ${2:examples}}$0

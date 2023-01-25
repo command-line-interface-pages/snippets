@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: absolute directory
+# key: adi
+# --
+{/directory ${1:description}: ${2:examples}}$0

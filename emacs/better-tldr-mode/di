@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: directory
+# key: di
+# --
+{directory ${1:description}: ${2:examples}}$0

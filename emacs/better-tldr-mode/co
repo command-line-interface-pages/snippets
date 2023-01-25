@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: command
+# key: co
+# --
+{command ${1:description}: ${2:examples}}$0

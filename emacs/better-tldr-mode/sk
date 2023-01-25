@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: skeleton
+# key: sk
+# --
+# ${1:command}
+
+> ${2:command-description}
+> More information: ${3:url}
+
+- ${4:example-description}:
+
+\`${5:example-code}$0\`

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bool
+# key: bo
+# --
+{bool ${1:description}: ${2:examples}}$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: absolute path
+# key: apa
+# --
+{/path ${1:description}: ${2:examples}}$0
