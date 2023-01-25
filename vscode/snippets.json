@@ -1,0 +1,55 @@
+{
+    "placeholder": {
+        "description": "[pl]aceholder",
+        "prefix": "pl",
+        "body": [
+            "{${1|bool,int,float,char,string,command,file,directory,path,any|} ${2:description}: ${3:examples}}"
+        ]
+    },
+    "placeholder with quantifier": {
+        "description": "[q]uantified [pl]aceholder",
+        "prefix": "qpl",
+        "body": [
+            "{${1|bool,int,float,char,string,command,file,directory,path,any|}${2|?,*,+|} ${3:description}: ${4:examples}}"
+        ]
+    },
+    "short option": {
+        "description": "short option",
+        "prefix": "-",
+        "body": [
+            "-${1:option} ${2:value}"
+        ]
+    },
+    "long option": {
+        "description": "long option",
+        "prefix": "--",
+        "body": [
+            "--${1:option}=${2:value}"
+        ]
+    },
+    "example": {
+        "description": "[ex]ample",
+        "prefix": "ex",
+        "body": [
+            "- ${1:example-description}:",
+            "",
+            "`${2:example-code}`",
+            ""
+        ]
+    },
+    "skeleton": {
+        "description": "[sk]eleton",
+        "prefix": "sk",
+        "body": [
+            "# ${1:command}",
+            "",
+            "> ${2:command-description}",
+            "> More information: ${3:url}",
+            "",
+            "- ${4:example-description}:",
+            "",
+            "`${5:example-code}`",
+            ""
+        ]
+    }
+}
